@@ -18,6 +18,9 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "inputmask": "^5.0.7",
+    "jquery": "^3.6.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
