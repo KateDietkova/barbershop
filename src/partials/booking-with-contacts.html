@@ -1,0 +1,101 @@
+<div class="contatcs-group">
+  <div class="container contacts-container">
+    <section class="booking">
+      <h2 class="title title--theme-dark">Online-booking</h2>
+      <form class="booking-form" name="booking-form">
+        <div class="booking-form-group">
+          <label class="booking-form-field">
+            <input
+              class="booking-form-input"
+              type="text"
+              name="user-name"
+              placeholder="Antony Black"
+              minlength="3"
+              required
+            />
+            <span class="booking-form-label">name*</span>
+            <span class="warning-msg">Must include minimum 3 charecters</span>
+            <svg class="info-icons" width="16" height="16">
+              <use
+                class="warning-icon"
+                href="./images/sprite.svg#icon-warning"
+              ></use>
+              <use
+                class="success-icon"
+                href="./images/sprite.svg#icon-success"
+              ></use>
+            </svg>
+          </label>
+          <label class="booking-form-field">
+            <input
+              class="booking-form-input"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              minlength="19"
+              placeholder=" "
+              required
+            />
+            <span class="booking-form-label">phone*</span>
+          </label>
+        </div>
+        <label class="booking-form-massage">
+          <textarea
+            class="booking-form-textarea"
+            name="user-message"
+            rows="5"
+            placeholder="&nbsp;"
+          ></textarea>
+          <span class="booking-form-label">message</span>
+        </label>
+        <button class="btn btn--theme-dark" type="submit">send</button>
+      </form>
+    </section>
+    <section class="contacts" id="contacts">
+      <h2 class="title title--theme-dark">Contacts</h2>
+      <div class="contacts-wrap">
+        <address class="contacts-address">
+          <ul class="contacts-list list">
+            <li class="contacts-item">
+              <a
+                class="contacts-link link"
+                href="https://goo.gl/maps/UgYU75aT7GZat5ea9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="contacts-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#map-pin"></use>
+                </svg>
+                st. Vasilkovaya, 7A <br />
+                Kiev, 08132
+              </a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link link" href="tel:+380441111111">
+                <svg class="contacts-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#phone"></use>
+                </svg>
+                +38 044 111 11 11
+              </a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link link" href="mailto:barbershop@email.com">
+                <svg class="contacts-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#mail"></use>
+                </svg>
+                barbershop@email.com
+              </a>
+            </li>
+          </ul>
+        </address>
+        <div class="contacts-group">
+          <p class="contacts-uppertitle">working hours</p>
+          <p class="contacts-schedule">
+            Every day from <time datetime="09:00">9:00</time> to
+            <time datetime="22:00">22:00</time>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
